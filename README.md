@@ -1,4 +1,4 @@
-# XOXO GAME
+# Tic-Tac-Toe GAME
 
 ## Table of contents
 
