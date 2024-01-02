@@ -16,3 +16,7 @@ Tic-Tac-Toe, also know as XOXO, is a classic two-player strategy game played on 
 ## Game Rules
 
 - The game is played on 3*3 grid.
+- Two players take turns, one using X and the other O.
+- Players alternate turns, placing their symbol in an open cell on the grid.
+- The first player to form a horizontal, vertical, or diagonal line of three of their symbols wins.
+- If the grid is filled without a winner, the game ends in a tie.
