@@ -25,7 +25,7 @@ Tic-Tac-Toe, also know as XOXO, is a classic two-player strategy game played on 
 
 # Output
 
-![Output](https://github.com/manisankar29/Tic-Tac-Toe_game/assets/138246745/3beccec0-97a1-4890-ad77-0de5561c06c3)
+<img width="960" alt="Screenshot 2024-01-03 232206" src="https://github.com/manisankar29/Tic-Tac-Toe_game/assets/138246745/09fe6e03-6040-4b26-87e6-55e2d04cd62b">
 
 # Installation
 
