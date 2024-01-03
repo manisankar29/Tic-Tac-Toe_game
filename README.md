@@ -29,4 +29,18 @@ Tic-Tac-Toe, also know as XOXO, is a classic two-player strategy game played on 
 
 # Installation
 
+1. Clone the repository
+
+```bash
+git clone https://github.com/manisankar29/Tic-Tac-Toe_game.git
+```
+
+2. Navigate to the project directory
+
+```bash
+cd Tic-Tac-Toe_game
+```
+
+3. Run the game
+
 # Note
