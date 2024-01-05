@@ -7,7 +7,6 @@
 - [Code Explanation](#code-explanation)
 - [Output](#output)
 - [Installation](#installation)
-- [Note](#note)
 
 ## Introduction 
 
@@ -22,6 +21,7 @@ Tic-Tac-Toe, also know as XOXO, is a classic two-player strategy game played on 
 - If the grid is filled without a winner, the game ends in a tie.
 
 # Code Explanation
+
 
 # Output
 
@@ -42,6 +42,3 @@ cd Tic-Tac-Toe_game
 ```
 
 3. Run the game
-
-# Note
-
