@@ -20,14 +20,22 @@ Tic-Tac-Toe, also know as XOXO, is a classic two-player strategy game played on 
 - The first player to form a horizontal, vertical, or diagonal line of three of their symbols wins.
 - If the grid is filled without a winner, the game ends in a tie.
 
-# Code Explanation
+## Code Explanation
 
+### HTML (index.html)
 
-# Output
+The HTML file provides the structure for the web page. It includes:
+
+- **Document Type Declaration:** `<!DOCTYPE html>` defines the document type and version.
+- **Language Specification:** `<html lang="en">` sets the document language to English.
+- **Head Section:**
+- **Body Section:**
+
+## Output
 
 <img width="960" alt="Screenshot 2024-01-03 232206" src="https://github.com/manisankar29/Tic-Tac-Toe_game/assets/138246745/09fe6e03-6040-4b26-87e6-55e2d04cd62b">
 
-# Installation
+## Installation
 
 1. Clone the repository
 
