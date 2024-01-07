@@ -29,7 +29,7 @@ The HTML file provides the structure for the web page. It includes:
 - **Document Type Declaration:** `<!DOCTYPE html>` defines the document type and version.
 - **Language Specification:** `<html lang="en">` sets the document language to English.
 - **Head Section:** Contains metadata, such as character set, vieport settings, page title, and a link to the external stylesheet.
-- **Body Section:** 
+- **Body Section:** Organizes the main content of the page, including a header, main section with the game grid, and a footer displaying the copyright information.
 
 ## Output
 
