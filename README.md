@@ -31,6 +31,17 @@ The HTML file provides the structure for the web page. It includes:
 - **Head Section:** Contains metadata, such as character set, vieport settings, page title, and a link to the external stylesheet.
 - **Body Section:** Organizes the main content of the page, including a header, main section with the game grid, and a footer displaying the copyright information.
 
+### CSS (style.css)
+
+The CSS file defines the styles for the HTML elements. Key styles include:
+
+- **Body Styles:**
+- **Main Section Styles:**
+- **Header and Footer Styles:**
+- **Game Grid Styles:**
+- **Box Styles:**
+- **Active Style:**
+
 ## Output
 
 <img width="960" alt="Screenshot 2024-01-03 232206" src="https://github.com/manisankar29/Tic-Tac-Toe_game/assets/138246745/09fe6e03-6040-4b26-87e6-55e2d04cd62b">
