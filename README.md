@@ -42,6 +42,8 @@ The CSS file defines the styles for the HTML elements. Key styles include:
 - **Box Styles:** Style the individual boxes within the grid, including width, height, borders, and cursor styling.
 - **Active Style:** Apply a specific style to the active player's moves for visual feedback.
 
+### JavaScript (main.js)
+
 ## Output
 
 <img width="960" alt="Screenshot 2024-01-03 232206" src="https://github.com/manisankar29/Tic-Tac-Toe_game/assets/138246745/09fe6e03-6040-4b26-87e6-55e2d04cd62b">
