@@ -35,12 +35,12 @@ The HTML file provides the structure for the web page. It includes:
 
 The CSS file defines the styles for the HTML elements. Key styles include:
 
-- **Body Styles:**
-- **Main Section Styles:**
-- **Header and Footer Styles:**
-- **Game Grid Styles:**
-- **Box Styles:**
-- **Active Style:**
+- **Body Styles:** Set the background color, font family, and overall styling for the body.
+- **Main Section Styles:** Center the game grid within the main section using flexbox.
+- **Header and Footer Styles:** Define styles for the header and footer, including background color, text color, and text shadow for a visually appealing header.
+- **Game Grid Styles:** Create a 3*3 grid for the Tic-Tac-Toe game, with styling for individual boxes, borders, and hover effects.
+- **Box Styles:** Style the individual boxes within the grid, including width, height, borders, and cursor styling.
+- **Active Style:** Apply a specific style to the active player's moves for visual feedback.
 
 ## Output
 
