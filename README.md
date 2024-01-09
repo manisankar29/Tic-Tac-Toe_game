@@ -52,6 +52,13 @@ The JavaScript file contains the logic for the Tic-Tac-Toe game.
 const game = document.querySelector('.game')
 ```
 
+- This line initializes an empty array called `boxes`. This array will be used to keep track moves made by players on the Tic-Tac-Toe grid.
+
+```bash
+const boxes = []
+```
+
+- 
 ## Output
 
 <img width="960" alt="Screenshot 2024-01-03 232206" src="https://github.com/manisankar29/Tic-Tac-Toe_game/assets/138246745/09fe6e03-6040-4b26-87e6-55e2d04cd62b">
