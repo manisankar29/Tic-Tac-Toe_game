@@ -54,9 +54,9 @@ The JavaScript file contains the logic for the Tic-Tac-Toe game.
 
 - This line initializes an empty array called `boxes`. This array will be used to keep track moves made by players on the Tic-Tac-Toe grid.
 
-```bash
-const boxes = []
-```
+  ```bash
+  const boxes = []
+  ```
 
 - 
 ## Output
