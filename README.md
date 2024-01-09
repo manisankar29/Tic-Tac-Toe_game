@@ -44,6 +44,14 @@ The CSS file defines the styles for the HTML elements. Key styles include:
 
 ### JavaScript (main.js)
 
+The JavaScript file contains the logic for the Tic-Tac-Toe game. 
+
+- This line selects the HTML element with the class "game" and assigns it to the variable `game`. This element is where the Tic-Tac-Toe grid will be displayed.
+
+```bash
+const game = document.querySelector('.game')
+```
+
 ## Output
 
 <img width="960" alt="Screenshot 2024-01-03 232206" src="https://github.com/manisankar29/Tic-Tac-Toe_game/assets/138246745/09fe6e03-6040-4b26-87e6-55e2d04cd62b">
