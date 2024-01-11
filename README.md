@@ -58,7 +58,14 @@ The JavaScript file contains the logic for the Tic-Tac-Toe game.
   const boxes = []
   ```
 
-- 
+- These lines declare two variables, `player` and `moves`, and set their initial values. `player` represents the current player (1 for X and 2 for O), and `moves` tracks the total number of moves made in the game.
+
+  ```bash
+  let player = 1;
+  let moves = 0;
+  ```
+
+
 ## Output
 
 <img width="960" alt="Screenshot 2024-01-03 232206" src="https://github.com/manisankar29/Tic-Tac-Toe_game/assets/138246745/09fe6e03-6040-4b26-87e6-55e2d04cd62b">
