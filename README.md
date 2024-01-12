@@ -69,6 +69,11 @@ The JavaScript file contains the logic for the Tic-Tac-Toe game.
 
   ```bash
   const checkForWin=()=> {
+  }
+  ```
+  
+  ```bash
+  const checkForWin=()=> {
     const lines = [
       [0,1,2],
       [3,4,5],
