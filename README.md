@@ -58,16 +58,16 @@ const boxes = []
 
 - This line initializes an empty array called `boxes`. This array will be used to keep track moves made by players on the Tic-Tac-Toe grid.
 
-  ```bash
-  let player = 1;
-  let moves = 0;
-  ```
+```bash
+let player = 1;
+let moves = 0;
+```
 
 - These lines declare two variables, `player` and `moves`, and set their initial values. `player` represents the current player (1 for X and 2 for O), and `moves` tracks the total number of moves made in the game.
 
-  ```bash
-  const checkForWin=()=> {
-    const lines = [
+```bash
+const checkForWin = () => {
+  const lines = [
       [0,1,2],
       [3,4,5],
       [6,7,8],
@@ -77,18 +77,39 @@ const boxes = []
       [0,4,8],
       [2,4,6]
     ];
-    for(let line of lines) {
-      const [a,b,c] = line;
-      if(boxes[a]&&boxes[a]===boxes[b]&&boxes[a]===boxes[c]) {
-        return true;
-      }
+  for(let line of lines) {
+    const [a,b,c] = line;
+    if(boxes[a]&&boxes[a]===boxes[b]&&boxes[a]===boxes[c]) {
+      return true;
     }
-    return false;
-  };
-  ```
-  
+  }
+  return false;
+};
+```
+
 - This declares a function named `checkForWin`, which will be responsible for checking if a player has won the game. The function contains an array called `lines` that represents all possible winning combinations on the Tic-Tac-Toe grid. This function checks all possible winning combinations (`lines`) on the grid. I any of these combinations has the same symbol (X or O) in all three positions, it retuns `true`, indicating that a player has won. Otherwise, it returns `false`.
   
+```bash
+const newGame = () => {
+  for(let i=0;i<9;i++) {
+    boxes[i] = null;
+  }
+  game.innerHTML = '';
+  for(let i=0;i<3;i++) {
+    for(let j=0;j<3;j++) {
+      const box = document.createElement('div');
+      box.classList.add('box');
+      box.dataset.index = i*3+j;
+      box.addeventListener('click', play);
+      game.appendChild(box);
+    }
+  }
+  player = 1;
+  moves = 0;
+};
+```
+
+- This declares a function named `newGame`, that is reponsible for resetting the game state and initializing a new game. It clears the `boxes` array and the HTML content inside the `.game` element. It creates a new 3*3 grid of boxes. Each box is assigned a unique index using the `dataset.index` attribute, and a click event listener (`play`) is added to each box.
 
 ## Output
 
