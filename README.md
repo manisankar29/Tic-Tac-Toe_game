@@ -52,20 +52,20 @@ The JavaScript file contains the logic for the Tic-Tac-Toe game.
 
 - This line selects the HTML element with the class "game" and assigns it to the variable `game`. This element is where the Tic-Tac-Toe grid will be displayed.
 
-    ```bash
+  ```bash
   const boxes = []
   ```
 
 - This line initializes an empty array called `boxes`. This array will be used to keep track moves made by players on the Tic-Tac-Toe grid.
 
-    ```bash
+  ```bash
   let player = 1;
   let moves = 0;
   ```
 
 - These lines declare two variables, `player` and `moves`, and set their initial values. `player` represents the current player (1 for X and 2 for O), and `moves` tracks the total number of moves made in the game.
 
-    ```bash
+  ```bash
   const checkForWin=()=> {
     const lines = [
       [0,1,2],
