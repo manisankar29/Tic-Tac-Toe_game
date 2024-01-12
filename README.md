@@ -67,10 +67,7 @@ The JavaScript file contains the logic for the Tic-Tac-Toe game.
 
 - This declares a function named `checkForWin`, which will be responsible for checking if a player has won the game. The function contains an array called `lines` that represents all possible winning combinations on the Tic-Tac-Toe grid.
 
-  ```bash
-  const checkForWin=()=> {
-  }
-  ```
+- This function checks all possible winning combinations (`lines`) on the grid. I any of these combinations has the same symbol (X or O) in all three positions, it retuns `true`, indicating that a player has won. Otherwise, it returns `false`.
   
   ```bash
   const checkForWin=()=> {
