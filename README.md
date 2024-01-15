@@ -111,6 +111,26 @@ const newGame = () => {
 
 - This declares a function named `newGame`, that is reponsible for resetting the game state and initializing a new game. It clears the `boxes` array and the HTML content inside the `.game` element. It creates a new 3*3 grid of boxes. Each box is assigned a unique index using the `dataset.index` attribute, and a click event listener (`play`) is added to each box.
 
+```bash
+const play = (e) => {
+  const box = e.target;
+  if(!box.textcontent) {
+    box.textcontent = player === 1 ? 'X' : 'O';
+    box.classList.add('active');
+    boxes[box.dataset.index] = player === 1 ? 'X' : 'O';
+    player = player === 1 ? 2 : 1;
+    moves++;
+    if (checkForWin()) {
+      alert(`Player ${player} wins!`);
+      newGame();
+    } else if (moves === 9) {
+        alert('It\'s a tie!');
+        newGame();
+    }
+  }
+};
+```
+
 ## Output
 
 <img width="960" alt="Screenshot 2024-01-03 232206" src="https://github.com/manisankar29/Tic-Tac-Toe_game/assets/138246745/09fe6e03-6040-4b26-87e6-55e2d04cd62b">
