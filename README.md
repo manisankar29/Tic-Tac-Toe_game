@@ -7,6 +7,7 @@
 - [Code Explanation](#code-explanation)
 - [Output](#output)
 - [Installation](#installation)
+- [License](#license)
 
 ## Introduction 
 
@@ -152,3 +153,7 @@ cd Tic-Tac-Toe_game
 ```
 
 3. Run the game
+
+## License
+
+[MIT License](LICENSE)
