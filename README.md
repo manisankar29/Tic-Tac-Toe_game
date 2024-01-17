@@ -134,6 +134,14 @@ const play = (e) => {
 
 - This declares a function named `play` that handles the logic for a player making move. It is triggered when a box in the grid is clicked. It checks if the clicked box is empty (`!box.textContent`), and if so, it updates the box with the current player's symbol ('X'or'O'). It adds the 'active' class to the box for visual feedback.
 
+- The move is recorded in the `boxes` array, and the player is switched for the next move. The function then checks for a win or a tie. If there is a tie or winner, an alert is displayed, and a new game is initiated.
+
+```bash
+newGame();
+```
+
+- Finally, the script initiates a new game when the page loads.
+  
 ## Output
 
 <img width="960" alt="Screenshot 2024-01-03 232206" src="https://github.com/manisankar29/Tic-Tac-Toe_game/assets/138246745/09fe6e03-6040-4b26-87e6-55e2d04cd62b">
